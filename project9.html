@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>
+
+    </title>
+    </head>
+     <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+     
+      .hero{
+        height: 100vh;
+        display:flex;
+
+      }
+      .left{
+        background-color: blue;
+        color: white;
+        padding:50px;
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+      }
+      .logo{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        margin-left: 5px;
+        font-size: 16px;
+         color:  rgb(169, 245, 18);
+         font-weight: bold;
+      }
+      .title{
+        font-size: 32px;
+        color: rgb(169, 245, 18);
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      .subtitle{
+        font-size: 32px;
+        color: rgb(169, 245, 18) ;
+        margin-bottom:10px;
+        font-weight: bold;
+      }
+      .describtion{
+        font-size: 14px; 
+        color: white;
+        line-height:1.2;
+        margin-bottom: 50px;
+        max-width:400px;
+        width:320px;
+      }
+      .extra-info{
+        display:flex;
+        gap:30px;
+        font-size:12px;
+        color:white;
+        width:300px;
+
+      }
+      .right{
+        background:rgb(169, 245, 18) ;
+        flex:1;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .photo-container{
+        border:5px solid white;
+        padding:5px;
+        background-color: white;
+
+      }
+      .photo-container img{
+        width:300px;
+        height:auto;
+        bottom:-20px;
+        left:-20px;
+        object-fit: cover;
+
+      }
+      </style>
+     <body>
+        <section class="hero">
+            <div class="left">
+            <div class="logo">olaqule</div>
+            <div class="title">frontend</div>
+            <div class="subtitle">developer</div>
+            <p class="describtion">i like to craft solid and scalable frontend product with great user experience</p>
+            <div class="extra-info">
+                <p>highly skilled at progressive enhancem ent design system and ui engineering.</p>
+                <p>over adecad of experience building product for client across several countries.</p>
+                </div>
+               </div>
+               <div class="right">
+                <div class="photo-container">
+                    <img src="your-photo.jpg"alt="profile photoh">
+                </div>
+               </div>
+               </section>
+       
+     </body>
+    
+    </html>
